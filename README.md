@@ -3,8 +3,7 @@ A project to determine if gaining an Accredible credential influenced a persons 
 
 INCLUDE MORE DETAILS HERE
 
-# The Tips Data Set 
-## Elizabeth Daly
+
 
 ### HDip Data Analytics 2019 
 ### 52446 Fundamentals of Data Analysis Assessment
