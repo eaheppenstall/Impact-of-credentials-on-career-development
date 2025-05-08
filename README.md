@@ -48,7 +48,7 @@ Some start/end dates are listed as unix timestamps. These have been converted to
 
 The dataset looks like: 
 
-![head](images/head.JPG)
+![json](images/json file dataset screenshot.png)
 
 ### 2.2 Initial steps: data cleaning of the csv file <a name="sec2p2"></a>
 
@@ -58,7 +58,7 @@ Credential Issue Dates were converted to a human-readable date.
 
 The dataset looks like: 
 
-![head](images/head.JPG)
+![csv](images/csv file dataset screenshot.png)
 
 ## 3. Combining the two datasets <a name="section3"></a>
 
@@ -66,7 +66,7 @@ The two datasets were combined using an inner join based on surname. Following t
 
 The dataset looks like: 
 
-![head](images/head.JPG)
+![merged](images/merged dataset screenshot.png)
 
 ## 4. Writing functions <a name="section4"></a>
 
