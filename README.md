@@ -48,7 +48,11 @@ Two datasets were required for this analysis:
 2) a csv file containing sample data from Accredible (1400 rows). This data contains information regarding an individuals interaction with Accredible i.e. the date on which a credential was issued.
 
 
-### 2.1 Initial steps <a name="sec2p1"></a>
+### 2.1 Initial steps: data cleaning of the json file <a name="sec2p1"></a>
+I loaded the data into a Pandas dataframe. I cleaned the data so that it contained separate columns for current role and previous role entries. Some individuals listed multiple current/previous roles and so each role was given a separate column. Start and end dates for these associated roles were included in most cases. 
+
+74 individuals did not give a start date for their current role and so I changed this to 1 January 2024, which is more than 12 months after the latest credential issue date. This means it won't affect my results, but I don't have to delete the data row. 
+
 I often use sites such as Medium.com to see how other people have investigated data sets using Python. Two examples of such exploratory data analyses are given in the reference list. The very first step is always to check if the data needs cleaning by looking for duplicate rows, zero values or NaNs where they shouldn't be, etc. Our data set is small enough to inspect visually and it looks fine. Counting the number of valid entries in each column confirms this. The head of the data set looks like:
 
 ![head](images/head.JPG)
