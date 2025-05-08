@@ -13,29 +13,20 @@ https://github.com/elizabethdaly/data-analysis-project.git
 1. [Introduction](#introduction)
 
 2. [Description of the data set](#section2)
-    1. [Initial steps](#sec2p1)
-    2. [Descriptive statistics](#sec2p2)
-    3. [Start looking at categories of diner](#sec2p3)
-    4. [Plots to summarize some statistics](#sec2p4)
+    1. [Initial steps: data cleaning of the json file](#sec2p1)
+    2. [Initial steps: data cleaning of the csv file](#sec2p2)
 
-3. [Regression](#section3)
-    1. [Regression in Seaborn](#sec3p1)
-    2. [Simple linear regression using polyfit](#sec3p2)
-    3. [Regression with statsmodels](#sec3p3)
-    4. [Regression with scikit-learn](#sec3p4)
-    5. [Linear regression on various subsets of the data](#sec3p5)
+3. [Combining the two datasets](#section3)
     
-4. [Relationships between variables](#section4)
-    1. [Visualize relationships between numerical variables with pairplot](#sec4p1)
-    2. [Investigate relationships between tip amount and the other variables](#sec4p2)
-    3. [Does the amount spent depend on party size?](#sec4p3)
-    4. [Classification](#sec4p4)
-    
-5. [Work done by other people on the Tips data set](#section5)
+4. [Writing functions](#section4)
+    1. [Writing a function to determine the job role on the Credential Issue Date](#sec4p1)
+    2. [Writing a function to determine if a role change has occurred during the 12 months following the Credential Issue Date](#sec4p2)
+
+5. [Results](#section5)
     
 6. [Conclusion](#conclusion)
 
-9. [References](#references)
+7. [Next steps](#nextsteps)
 
 ## 1. Introduction <a name="introduction"></a>
 - This README describes work done to answer the question 'do individuals who interact with the Accredible network secure a promotion within 12 months of that interaction, thereby advancing ahead of their peers who aren't in the network. Resources used include Python and associated packages Pandas and Numpy. The analysis can be found at the filename given above.  
@@ -79,19 +70,20 @@ The dataset looks like:
 
 ![head](images/head.JPG)
 
-### 4.1 Writing a function to determine the job role on the Credential Issue Date <a name="sec4p1"></a>
+### 4. Writing functions <a name="section4"></a>
 
+### 4.1 Writing a function to determine the job role on the Credential Issue Date <a name="sec4p1"></a>
 
 ### 4.2 Writing a function to determine if a role change has occurred during the 12 months following the Credential Issue Date <a name="sec4p2"></a>
 
-### 5 Results <a name="section5"></a>
+### 5. Results <a name="section5"></a>
 
 The main finding of this analysis is that only 21 roles changed within 12 months of the Credential Issue Date
 
-### 6 Conclusion <a name="section6"></a>
+### 6. Conclusion <a name="conclusion"></a>
 
 This analysis found that 14% of job roles changed within 12 months of the Credential Issue Date. I would say that this is not a large enough percentage to say that Accredible had an effect on the job role change and that further analysis is needed to draw more solid conclusions. 
 
-### 7 Next Steps <a name="section7"></a>
+### 7. Next Steps <a name="nextsteps"></a>
 
 Need to have a control group to compare......
