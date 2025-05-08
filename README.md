@@ -2,7 +2,7 @@
 A project to determine if gaining an Accredible credential influenced a persons career within 12 months of gaining that credential
 
 Git-hub repository at:
-https://github.com/elizabethdaly/data-analysis-project.git
+https://github.com/eaheppenstall/Impact-of-credential-on-career-development
 
 - Jupyter notebook: **tips-data-analysis.ipynb**
 - data set: data\tips.csv
