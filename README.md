@@ -4,10 +4,8 @@ A project to determine if gaining an Accredible credential influenced a persons 
 Git-hub repository at:
 https://github.com/eaheppenstall/Impact-of-credential-on-career-development
 
-- Jupyter notebook: **tips-data-analysis.ipynb**
-- data set: data\tips.csv
-
-![Tips](images/tip.jpg)
+- Python file: **tips-data-analysis.ipynb**
+- data set: data\tips.csv  **Need to update this**
 
 # Table of contents
 1. [Introduction](#introduction)
