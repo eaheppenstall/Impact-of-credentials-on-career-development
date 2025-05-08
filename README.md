@@ -72,7 +72,11 @@ The dataset looks like:
 
 ### 4.1 Writing a function to determine the job role on the Credential Issue Date <a name="sec4p1"></a>
 
+This function takes the Credential Issue Date as the reference point. It then looks through the role title columns (current role, previous role etc.) to see which role was held on the Credential Issue Date. It then creates a data point in a new column entitled 'role_on_credential_date' which lists the role title held on the Credential Issue Date.
+
 ### 4.2 Writing a function to determine if a role change has occurred during the 12 months following the Credential Issue Date <a name="sec4p2"></a>
+
+This function defines the 12 month window for each individual as 12 months after the Credential Issue Date. It then looks to see if a role change has occured within each individual's 12 month window. It returns a list of roles started within the 12 month window, or returns [] where no new role has been started.
 
 ## 5. Results <a name="section5"></a>
 
@@ -84,4 +88,6 @@ This analysis found that 14% of job roles changed within 12 months of the Creden
 
 ## 7. Next Steps <a name="nextsteps"></a>
 
-Need to have a control group to compare......
+Further analysis is needed to test this result against a control set (i.e. a group of individuals who haven't interacted with Accredible. Ideally, the control group would be a group of individuals with similar job roles to that in this dataset. 
+
+It would also be interesting to link salary data here, to see how valuable an Accredible credential is.
