@@ -62,7 +62,7 @@ The dataset looks like:
 
 ![head](images/head.JPG)
 
-### 3. Combining the two datasets <a name="section3"></a>
+## 3. Combining the two datasets <a name="section3"></a>
 
 The two datasets were combined using an inner join based on surname. Following this action, I now have 151 rows of data. Multiple data rows were lost in this step and this is likely due to extra spaces, spelling mistakes, etc. in the surname column of either dataframe. 
 
@@ -70,20 +70,20 @@ The dataset looks like:
 
 ![head](images/head.JPG)
 
-### 4. Writing functions <a name="section4"></a>
+## 4. Writing functions <a name="section4"></a>
 
 ### 4.1 Writing a function to determine the job role on the Credential Issue Date <a name="sec4p1"></a>
 
 ### 4.2 Writing a function to determine if a role change has occurred during the 12 months following the Credential Issue Date <a name="sec4p2"></a>
 
-### 5. Results <a name="section5"></a>
+## 5. Results <a name="section5"></a>
 
 The main finding of this analysis is that only 21 roles changed within 12 months of the Credential Issue Date
 
-### 6. Conclusion <a name="conclusion"></a>
+## 6. Conclusion <a name="conclusion"></a>
 
 This analysis found that 14% of job roles changed within 12 months of the Credential Issue Date. I would say that this is not a large enough percentage to say that Accredible had an effect on the job role change and that further analysis is needed to draw more solid conclusions. 
 
-### 7. Next Steps <a name="nextsteps"></a>
+## 7. Next Steps <a name="nextsteps"></a>
 
 Need to have a control group to compare......
