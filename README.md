@@ -62,7 +62,7 @@ Credential Issue Dates were converted to a human-readable date.
 
 The dataset looks like: 
 
-![csv](Images/csv file dataset screenshot.png)
+![csv](https://github.com/eaheppenstall/Impact-of-credential-on-career-development/blob/main/Images/csv%20file%20dataset%20screenshot.png)
 
 ## 3. Combining the two datasets <a name="section3"></a>
 
