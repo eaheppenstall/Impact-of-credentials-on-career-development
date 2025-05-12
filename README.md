@@ -1,10 +1,6 @@
 # Impact-of-credentials-on-career-development
 A project to determine if gaining an Accredible credential influenced a persons career within 12 months of gaining that credential
 
-**to do**
-**update image links**
-**add python file**
-
 Git-hub repository at:
 https://github.com/eaheppenstall/Impact-of-credential-on-career-development
 
