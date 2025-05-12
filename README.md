@@ -9,7 +9,7 @@ Git-hub repository at:
 https://github.com/eaheppenstall/Impact-of-credential-on-career-development
 
 - Python file: **[Impact of credentials on career development](https://github.com/eaheppenstall/Impact-of-credential-on-career-development/blob/main/Accredible_data_project_clean.py)**
-- data set: available upon request: eaheppenstall@gmail.com
+- Data set: available upon request: eaheppenstall@gmail.com
 
 # Table of contents
 1. [Introduction](#introduction)
@@ -62,7 +62,7 @@ Credential Issue Dates were converted to a human-readable date.
 
 The dataset looks like: 
 
-![csv](images/csv file dataset screenshot.png)
+![csv](Images/csv file dataset screenshot.png)
 
 ## 3. Combining the two datasets <a name="section3"></a>
 
