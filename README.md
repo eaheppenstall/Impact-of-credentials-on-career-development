@@ -52,7 +52,7 @@ Some start/end dates are listed as unix timestamps. These have been converted to
 
 The dataset looks like: 
 
-![json](images/json file dataset screenshot.png)
+![json](https://github.com/eaheppenstall/Impact-of-credential-on-career-development/blob/main/Images/json%20file%20dataset%20screenshot.png)
 
 ### 2.2 Initial steps: data cleaning of the csv file <a name="sec2p2"></a>
 
@@ -70,7 +70,7 @@ The two datasets were combined using an inner join based on surname. Following t
 
 The dataset looks like: 
 
-![merged](images/merged dataset screenshot.png)
+![merged](https://github.com/eaheppenstall/Impact-of-credential-on-career-development/blob/main/Images/merged%20dataset%20screenshot.png)
 
 ## 4. Writing functions <a name="section4"></a>
 
