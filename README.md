@@ -1,4 +1,4 @@
-# Impact-of-credential-on-career-development
+# Impact-of-credentials-on-career-development
 A project to determine if gaining an Accredible credential influenced a persons career within 12 months of gaining that credential
 
 **to do**
@@ -8,7 +8,7 @@ A project to determine if gaining an Accredible credential influenced a persons 
 Git-hub repository at:
 https://github.com/eaheppenstall/Impact-of-credential-on-career-development
 
-- Python file: **https://github.com/eaheppenstall/Impact-of-credential-on-career-development/blob/main/Accredible_data_project_clean.py**
+- Python file: **[Impact of credentials on career development] (https://github.com/eaheppenstall/Impact-of-credential-on-career-development/blob/main/Accredible_data_project_clean.py)**
 - data set: available upon request: eaheppenstall@gmail.com
 
 # Table of contents
