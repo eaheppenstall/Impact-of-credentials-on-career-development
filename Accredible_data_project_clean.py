@@ -318,24 +318,6 @@ merged_df['roles_within_12_months'] = merged_df.apply(check_roles_within_12_mont
 # Display key columns for inspection
 print(merged_df[['last_name', 'Credential Issue Date', 'role_on_credential_date', 'roles_within_12_months']])
 
-
-
-       last_name  ...                    roles_within_12_months
-0    Satterfield  ...                                        []
-1         Bickle  ...                                        []
-2         Miller  ...                                        []
-3         Drance  ...                                        []
-4          Watts  ...                                        []
-..           ...  ...                                       ...
-146        Yokum  ...  [(Project Manager, 2021-10-01 00:00:00)]
-147         Pier  ...                                        []
-148      Bennett  ...                                        []
-149      Bennett  ...                                        []
-150      Papaiah  ...                                        []
-
-[151 rows x 4 columns]
-
-
 merged_df['roles_within_12_months'].value_counts()
 
 roles_within_12_months
